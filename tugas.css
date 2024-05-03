@@ -1,0 +1,109 @@
+*{
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 25px 30px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    color: #ffffff;
+}
+
+p{
+    font-size: 15px;
+    color:rgb(207, 245, 106);;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.box-content1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    margin-right: 25px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+}
+.box-content2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.box-content3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.box-content4{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.headbox{
+    font-size: 32px;
+    line-height: 145%;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color:rgb(207, 245, 106);
+}
+
+.harga{
+    font-size: large;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+ul li{
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+a{
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 20px;
+    color: black;
+    background-color:rgb(189, 241, 48);
+
+}
+
